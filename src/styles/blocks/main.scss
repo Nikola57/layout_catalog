@@ -4,17 +4,18 @@ body {
   font-weight: 500;
   font-size: 0;
 
-  text-align: center;
+  // text-align: center;
 }
 
 .catalog {
   --column-count: 1;
-  padding: 50px 40px;
 
+  padding: 50px;
   display: grid;
   grid-template-columns: repeat(var(--column-count), 200px);
-  row-gap: 46px;
-  column-gap: 48px;
+
+  gap: 46px 48px;
+
   justify-content: center;
 }
 
