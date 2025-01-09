@@ -1,5 +1,5 @@
 .header {
-  box-shadow: 0px 2px 4px 0px #0000000d;
+  box-shadow: 0 2px 4px #0000000d;
 
   &__conteiner {
     display: flex;
@@ -50,7 +50,7 @@
     padding-bottom: 22.5px;
 
     // figma
-    font-family: Roboto;
+    // font-family: Roboto ;
     font-size: 12px;
     font-weight: 500;
     line-height: 15px;

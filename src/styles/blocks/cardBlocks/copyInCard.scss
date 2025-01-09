@@ -24,16 +24,19 @@
   &__text {
     margin-bottom: 4px;
     color: $main-text-color;
+
     // width: 166px;
     // height: 36px;
+
     top: 207px;
     left: 17px;
 
-    //figma
+    // figma
     font-family: Roboto, sans-serif;
     font-size: 12px;
     font-weight: 500;
     line-height: 18px;
+
     // text-align: left;
     // text-underline-position: from-font;
     // text-decoration-skip-ink: none;
@@ -61,12 +64,14 @@
     display: flex;
     margin-bottom: 24px;
     justify-content: space-between;
+
     // justify-content: center;
+
     align-items: center;
 
     &-count {
-      justify-content: center;
-      align-items: center;
+      // justify-content: center;
+      // align-items: center;
       color: #060b35;
       width: 53px;
       height: 16px;
