@@ -1,10 +1,14 @@
 .card {
-  width: 198px;
-  height: 406px;
+  box-sizing: border-box;
+  width: 200px;
+  // height: 406px;
+
   top: 1px;
   left: 1px;
   border-radius: 5px;
   border: 1px solid #f3f3f3;
+
+  transition: transform 0.3s;
 
   &__informacion {
     margin: 0 16px 16px;
