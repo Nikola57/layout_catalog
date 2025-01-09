@@ -1,10 +1,10 @@
 .card {
   box-sizing: border-box;
   width: 200px;
-  // height: 406px;
 
-  top: 1px;
-  left: 1px;
+  // height: 406px;
+  // top: 1px;    ???
+  // left: 1px;    ???
   border-radius: 5px;
   border: 1px solid #f3f3f3;
 
@@ -32,8 +32,8 @@
     // width: 166px;
     // height: 36px;
 
-    top: 207px;
-    left: 17px;
+    // top: 207px;
+    // left: 17px;
 
     // figma
     font-family: Roboto, sans-serif;
@@ -53,8 +53,9 @@
     color: #616070;
     width: 98px;
     height: 14px;
-    top: 247px;
-    left: 17px;
+
+    // top: 247px;
+    // left: 17px;
     font-family: Roboto, sans-serif;
     font-size: 10px;
     font-weight: 400;
@@ -137,6 +138,8 @@
     font-size: 14px;
     font-weight: 700;
     line-height: 16px;
+
+    border: 1px solid #00acdc;
 
     &[data-qa='card-hover']:hover {
       border: 1px solid #00acdc;
